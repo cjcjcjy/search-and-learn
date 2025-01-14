@@ -1,0 +1,11 @@
+# refer to src/sal/config.py for more options
+
+approach: best_of_n
+n: 256
+search_batch_size: 25
+sort_completed: true
+filter_duplicates: true
+num_samples: 500         # REMOVE THIS LINE TO RUN ON THE WHOLE DATASET
+seed: 0
+output_dir: data/openrrr
+prm_path: openreasoner/Math-psa
