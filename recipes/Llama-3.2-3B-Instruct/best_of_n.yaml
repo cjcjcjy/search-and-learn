@@ -1,0 +1,18 @@
+# refer to src/sal/config.py for more options
+
+model_path: /data/disk2/jjxiao/Llama-3.2-3B-Instruct/
+model_file: Llama-3.2-3B-Instruct
+dataset_name: opencompass/AIME2025
+dataset_file: aime2025
+# prm_file: Llama_PRM800K
+# prm_path: Llama_PRM800K
+approach: best_of_n
+n: 256
+search_batch_size: 1
+sort_completed: true
+filter_duplicates: true
+# num_samples: 300         # REMOVE THIS LINE TO RUN ON THE WHOLE DATASET
+dataset_start: 0
+dataset_end: 30
+seed: 0
+# output_dir: data/gsm8k/qwen

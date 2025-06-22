@@ -1,0 +1,17 @@
+# refer to src/sal/config.py for more options
+
+dataset_name: xiaomama2002/AIME-2022-2025
+dataset_file: aime2025
+# prm_file: Llama_PRM800K
+# prm_path: Llama_PRM800K
+approach: best_of_n
+n: 256
+search_batch_size: 1
+sort_completed: true
+filter_duplicates: true
+# num_samples: 300         # REMOVE THIS LINE TO RUN ON THE WHOLE DATASET
+dataset_start: 30
+dataset_end: 60
+seed: 0
+# output_dir: data/gsm8k/qwen
+
